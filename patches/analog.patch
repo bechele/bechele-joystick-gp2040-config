@@ -1,0 +1,71 @@
+diff --git a/headers/addons/analog.h b/headers/addons/analog.h
+index 9d0a5c4b..07ef0fec 100644
+--- a/headers/addons/analog.h
++++ b/headers/addons/analog.h
+@@ -8,15 +8,15 @@
+ #include "types.h"
+ 
+ #ifndef ANALOG_INPUT_ENABLED
+-#define ANALOG_INPUT_ENABLED 0
++#define ANALOG_INPUT_ENABLED 1
+ #endif
+ 
+ #ifndef ANALOG_ADC_1_VRX
+-#define ANALOG_ADC_1_VRX    -1
++#define ANALOG_ADC_1_VRX    26
+ #endif
+ 
+ #ifndef ANALOG_ADC_1_VRY
+-#define ANALOG_ADC_1_VRY    -1
++#define ANALOG_ADC_1_VRY    27
+ #endif
+ 
+ #ifndef ANALOG_ADC_1_MODE
+@@ -52,19 +52,19 @@
+ #endif
+ 
+ #ifndef DEFAULT_INNER_DEADZONE
+-#define DEFAULT_INNER_DEADZONE 5
++#define DEFAULT_INNER_DEADZONE 0
+ #endif
+ 
+ #ifndef DEFAULT_INNER_DEADZONE2
+-#define DEFAULT_INNER_DEADZONE2 5
++#define DEFAULT_INNER_DEADZONE2 0
+ #endif
+ 
+ #ifndef DEFAULT_OUTER_DEADZONE
+-#define DEFAULT_OUTER_DEADZONE 95
++#define DEFAULT_OUTER_DEADZONE 100
+ #endif
+ 
+ #ifndef DEFAULT_OUTER_DEADZONE2
+-#define DEFAULT_OUTER_DEADZONE2 95
++#define DEFAULT_OUTER_DEADZONE2 100
+ #endif
+ 
+ #ifndef AUTO_CALIBRATE_ENABLED
+@@ -76,19 +76,19 @@
+ #endif
+ 
+ #ifndef ANALOG_SMOOTHING_ENABLED
+-#define ANALOG_SMOOTHING_ENABLED 0
++#define ANALOG_SMOOTHING_ENABLED 1
+ #endif
+ 
+ #ifndef ANALOG_SMOOTHING2_ENABLED
+-#define ANALOG_SMOOTHING2_ENABLED 0
++#define ANALOG_SMOOTHING2_ENABLED 1
+ #endif
+ 
+ #ifndef SMOOTHING_FACTOR
+-#define SMOOTHING_FACTOR 5
++#define SMOOTHING_FACTOR 2
+ #endif
+ 
+ #ifndef SMOOTHING_FACTOR2
+-#define SMOOTHING_FACTOR2 5
++#define SMOOTHING_FACTOR2 2
+ #endif
+ 
+ #ifndef ANALOG_ERROR
