@@ -7,7 +7,7 @@ For the animatronics software bechele it is very helpful to have a precise Joyst
 https://www.thingiverse.com/thing:7164439
 
 ## Alternative projects using different electronics hardware 
-Alternative electronics hardware exists, you may use for the same purpose. Note that the RP2040 has a ADC with 12 bit resolution, reflecting a value range of 0 to 4096. If you want to connect via USB to your computer this Package is the best choice. If you prefer to have a bluetooth device ESP32C3 may be your choice. If you choose the Arduino pro micro ( https://github.com/bechele/atmega32u4 ) you need to keep in mind, that the resolution is just 10 bit 
+Alternative electronics hardware exists, you may use for the same purpose. Note that the RP2040 has a ADC with 12 bit resolution, reflecting a value range of 0 to 4096. If you want to connect via USB to your computer this Package is the best choice. If you prefer to have a bluetooth device ESP32C3 may be your choice. If you choose the Arduino pro micro ( https://github.com/bechele/atmega32u4-Bechele-Joystick ) you need to keep in mind, that the resolution is just 10 bit 
 
 ## Installation onto a RP2040-zero board:
 ### Option 1 - only recommended, if you need to change some code. -  Build using visual code.
