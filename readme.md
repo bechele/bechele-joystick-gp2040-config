@@ -46,7 +46,7 @@ $env:GP2040_BOARDCONFIG="BecheleJoystick"
 
 
 ### Option 2 - upload the pre-compiled .uf2 file (recommended) 
-- Download the .uf2 file from my web site http://bechele.de
+- Download the .uf2 file from my web site http://bechele.de or from the firmware folder of this repository
 - Connect the board using a USB cable to your Raspi
 
 #### This way you may upload it to your RP2040-zero:
