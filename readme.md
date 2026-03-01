@@ -11,7 +11,7 @@ Alternative electronics hardware exists, you may use for the same purpose. Note 
 
 ## Installation onto a RP2040-zero board:
 ### Option 1 - only recommended, if you need to change some code. -  Build using visual code.
-This firmware is based on the gp2040-ce project: https://https://gp2040-ce.info
+This firmware is based on the gp2040-ce project: https://gp2040-ce.info
 Only minor changes have been made, so the resulting .uf2 file is pre-configured for the bechele joystick.
 By setting up the joystick via the web interface of GP2040 manually, you may achieve the same functionality if set correctly.  So installing from source is rather unlikely to be necessary. 
 
